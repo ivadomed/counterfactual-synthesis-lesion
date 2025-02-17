@@ -1,4 +1,4 @@
-# Counterfactual_synthesis_for_lesion_segmentation
+# Counterfactual synthesis for lesion segmentation
 
 This project aims at segmenting lesions in the Spinal Cord on MRI images. 
 The main idea consists in training model on healthy patients that is able to recover the initial image after degradation. Then using it on images with lesions and segment the lesion based on the differences between original and recovered image.
